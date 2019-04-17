@@ -1,0 +1,17 @@
+[general]
+name=DB Werkzeug 
+qgisMinimumVersion=3.0
+description=Direkte Einbindung von PostgreSQL-Datenbanken
+version=0.1
+author=Marlen Mährlein, Marian Baciu
+email=marian_rocky@yahoo.com
+
+about=Dieses Plugin ermöglicht es eine neue Datenbank direkt in QGIS zu erzeugen oder eine Verbindung zu einer bestehenden PostgreSQL-Datenbank herzustellen. Außerdem kann man SQL und PostGIS Abfragen ausführen, Tabellen erstellen, aktualisieren, löschen, neue Werte einsetzen usw. Im Hintergrund fügt das Plugin die Verbindungsparameter einer DB-Liste (json) hinzu. Dies ermöglicht folgend einen unkomplizierten Zugriff auf die Datenbank, ohne die Eingabe der Verbindungsparameter. Sodass anschließend Inhalte der Datenbank in QGIS geladen werden können. Änderungen die an den in QGIS geladenen Datensätzen vorgenommen werden, werden auch direkt in der entsprechenden Datenbank gespeichert.
+
+tracker=http://bugs
+repository=http://repo
+
+tags=database, postgreSQL, postGIS
+icon=icons/dbicon.png
+experimental=True
+deprecated=False 
